@@ -1,12 +1,12 @@
 # kDTA
 
 ## Project Description
-This repository contains the python code to calculate the heating rate anlysis of a single high temperature susceptibility bridge (HTSB) run as described in
+Python code to analyze the heating rate of a single high temperature susceptibility bridge (HTSB) measurement as described in
 > Doctor, R. & Feinberg, J. M. (in review). Differential thermal analysis using high temperature susceptibility instruments. JGR: Solid Earth
 
-This analysis using the heating rate information form a sample blank and the sample of interest measured on a HTSB to identify thermal fluctuations caused by reactions. 
+This analysis uses the heating information from a blank sample and the sample of interest measured on an HTSB to calculate thermal fluctuations. 
 
-Please cite paper if using the code in your research.
+Please cite this paper if using the code in your research.
 
 ## How to Run
 ### Python libraries needed
@@ -20,12 +20,12 @@ Please cite paper if using the code in your research.
 	python kDTA_quickplot.py
 	
 ### Inputs:
-	blank file - txt with columns corresponding to time and temperature
-	sample file - txt with columns corresponding to time and temperature
-  file structure - answer prompts to identify time and temperature columns
+.txt input files must include time and temperature columns and have column names as the first row:
+- blank file
+- sample file
 	
 ### Output:
-	plot of the heating rate analysis, detrended, with locally weighted regression smoothing over 3%
+plot of the heating rate analysis, detrended, with locally weighted regression smoothing over a 3% window
 
 
 ## Contact
