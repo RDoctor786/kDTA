@@ -2,7 +2,7 @@
 
 ## Project Description
 Python code to analyze the heating rate of a single high temperature susceptibility bridge (HTSB) measurement as described in
-> Doctor, R. & Feinberg, J. M. (in review). Differential thermal analysis using high temperature susceptibility instruments. JGR: Solid Earth
+> Doctor, R., & Feinberg, J. M. (2022). Differential thermal analysis using high temperature susceptibility instruments. Journal of Geophysical Research: Solid Earth, 127, e2021JB023789. https://doi.org/10.1029/2021JB023789
 
 This analysis uses the heating information from a blank sample and the sample of interest measured on an HTSB to calculate thermal fluctuations. 
 
